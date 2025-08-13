@@ -5,6 +5,7 @@ RUN apt-get update &&                               \
                     --no-install-recommends         \
                     --no-install-suggests           \
                                                     \
+                    make                            \
                     fonts-liberation                \
                     latexmk                         \
                     texlive-xetex                   \
