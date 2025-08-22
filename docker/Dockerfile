@@ -15,4 +15,4 @@ RUN apt-get update &&                               \
                     texlive-extra-utils             \
                     python3 python3-pip
 
-RUN pip3 install pdfly
+RUN pip3 install --break-system-packages pdfly
