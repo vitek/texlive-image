@@ -12,4 +12,7 @@ RUN apt-get update &&                               \
                     texlive-lang-english            \
                     texlive-lang-cyrillic           \
                     texlive-fonts-recommended       \
-                    texlive-extra-utils
+                    texlive-extra-utils             \
+                    python3 python3-pip
+
+RUN pip3 install pdfly
