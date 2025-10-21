@@ -5,6 +5,7 @@ RUN apt-get update &&                               \
                     --no-install-recommends         \
                     --no-install-suggests           \
                                                     \
+                    ghostscript                     \
                     make                            \
                     fonts-liberation                \
                     latexmk                         \
